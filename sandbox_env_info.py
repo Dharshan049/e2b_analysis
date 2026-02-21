@@ -4,7 +4,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from e2b_code_interpreter import Sandbox
-print("Loading")
 load_dotenv()
 
 sandbox_id = Path(".sandbox_id").read_text(encoding="utf-8").strip()
